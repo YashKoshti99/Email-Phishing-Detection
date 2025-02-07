@@ -15,3 +15,4 @@ if response.status_code == 200:
     print(f"Loaded {len(phishing_data)} phishing records!")
 else:
     print("Failed to download data. HTTP Status Code:", response.status_code)
+    prin("Yash")
